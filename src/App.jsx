@@ -6,10 +6,15 @@ import Blogs from './Components/blogs.jsx/Blogs'
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
 
     const handleAddToBookmarks = blog =>{
       const newBookmarks = [...bookmarks, blog];
       setBookmarks(newBookmarks);
+    }
+    const handleMarkAsRead = time =>{
+        const newReadingTime = readingTime + time;
+        setReadingTime(newReadingTime)
     }
 
   return (
@@ -18,8 +23,9 @@ function App() {
       <div className='md:flex max-w-7xl mx-auto'>
         <Blogs
           handleAddToBookmarks={handleAddToBookmarks}
+          handleMarkAsRead={handleMarkAsRead}
         ></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <Bookmarks readingTime={readingTime} bookmarks={bookmarks}></Bookmarks>
       </div>
     </>
   )
