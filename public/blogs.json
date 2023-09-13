@@ -1,53 +1,43 @@
 [
     {
       "id": 11,
-      "coverimg": "cover11.jpg",
+      "cover": "../src/assets/images/1.jpg",
       "title": "Lorem Ipsum Dolor Sit Amet",
       "author": "John Doe",
-      "authorimg": "author11.jpg",
+      "author_img": "../src/assets/images/boy1.png",
       "posted_date": "2023-08-21",
       "reading_time": 8,
       "hashtags": ["technology", "programming", "webdev"]
     },
     {
       "id": 12,
-      "coverimg": "cover12.jpg",
+      "cover": "../src/assets/images/2.png",
       "title": "Consectetur Adipiscing Elit",
       "author": "Alice Johnson",
-      "authorimg": "author12.jpg",
+      "author_img": "../src/assets/images/girl1.jpg",
       "posted_date": "2023-08-20",
       "reading_time": 10,
       "hashtags": ["science", "research"]
     },
     {
       "id": 13,
-      "coverimg": "cover13.jpg",
+      "cover": "../src/assets/images/3.png",
       "title": "Vivamus Ac Eros Sit Amet",
       "author": "Bob Smith",
-      "authorimg": "author13.jpg",
+      "author_img": "../src/assets/images/boy2.png",
       "posted_date": "2023-08-19",
       "reading_time": 12,
       "hashtags": ["travel", "adventure"]
     },
     {
       "id": 14,
-      "coverimg": "cover14.jpg",
+      "cover": "../src/assets/images/4.jpg",
       "title": "Pellentesque Nunc Mollis Sapien",
       "author": "Ella Davis",
-      "authorimg": "author14.jpg",
+      "author_img": "../src/assets/images/girl2.jpg",
       "posted_date": "2023-08-18",
       "reading_time": 7,
       "hashtags": ["health", "wellness"]
-    },
-    {
-      "id": 15,
-      "coverimg": "cover15.jpg",
-      "title": "Fusce Eu Feugiat Eros",
-      "author": "Michael Brown",
-      "authorimg": "author15.jpg",
-      "posted_date": "2023-08-17",
-      "reading_time": 9,
-      "hashtags": ["food", "recipes"]
     }
   ]
   
